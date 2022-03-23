@@ -18,6 +18,10 @@ public class ModBlocks {
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
 
+    // Hier wird der Block erstellt und er bekommt einen Namen sowie eine Itemklasse im Spiel (hier MISC).
+    public static final Block TITANIUM_ORE= registerBlock("titanium_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ItemGroup.MISC);
+
     // Jeder Block erbt von der Standardklasse BLOCK von Minecraft.
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
