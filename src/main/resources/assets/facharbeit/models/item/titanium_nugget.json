@@ -2,6 +2,6 @@
   "_comment": "In dieser Datei wird dem Item seine Textur zugewiesen",
   "parent": "item/generated",
   "textures": {
-    "layer0": "facharbeit:item/titanium_ingot"
+    "layer0": "facharbeit:item/titanium_nugget"
   }
 }

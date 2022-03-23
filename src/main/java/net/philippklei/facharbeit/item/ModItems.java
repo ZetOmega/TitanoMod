@@ -14,6 +14,10 @@ public class ModItems {
     public static final Item TITANUM_INGOT = registerItem("titanium_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier MISC).
+    public static final Item TITANUM_NUGGET = registerItem("titanium_nuggget",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     // Jedes Item erbt von der Standardklasse ITEM von Minecraft.
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(FacharbeitMod.MOD_ID, name), item);
