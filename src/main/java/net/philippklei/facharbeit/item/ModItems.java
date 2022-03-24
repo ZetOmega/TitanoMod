@@ -24,7 +24,7 @@ public class ModItems {
 
     // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Item TITANIUM_FINDER= registerItem("titanium_finder",
-            new TitaniumFinderItem(new FabricItemSettings().group(ModItemGroups.FACHARBEIT).maxDamage(69)));
+            new TitaniumFinderItem(new FabricItemSettings().group(ModItemGroups.FACHARBEIT).maxDamage(420)));
 
     // Jedes Item erbt von der Standardklasse ITEM von Minecraft.
     private static Item registerItem(String name, Item item){
