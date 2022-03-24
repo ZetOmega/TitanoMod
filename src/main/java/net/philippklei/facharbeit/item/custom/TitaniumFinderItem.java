@@ -45,7 +45,7 @@ public class TitaniumFinderItem extends Item {
 
     private void gebeKoordinatenAus(BlockPos blockPos, PlayerEntity player, Block blockBelow) {
         player.sendMessage(new LiteralText("Titanium Erz bei " +
-                "(" + blockPos.getX() + ", " + blockPos.getY() + "," + blockPos.getZ() + ")" + " gefunden"), false);
+                "(" + blockPos.getX() + ", " + blockPos.getZ() + ")" + " gefunden"), false);
     }
 
     private boolean isTitaniumOre(Block block) {
