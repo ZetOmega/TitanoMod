@@ -17,15 +17,15 @@ public class ModBlocks {
 
     // Hier wird der Block erstellt und er bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroups.FACHARBEIT);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(16.0f).requiresTool()), ModItemGroups.FACHARBEIT);
 
     // Hier wird der Block erstellt und er bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Block END_TITANIUM_ORE= registerBlock("end_titanium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroups.FACHARBEIT);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(32.0f).requiresTool()), ModItemGroups.FACHARBEIT);
 
     // Hier wird der Block erstellt und er bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroups.FACHARBEIT);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(28.0f).requiresTool()), ModItemGroups.FACHARBEIT);
 
 
     // Jeder Block erbt von der Standardklasse BLOCK von Minecraft.
