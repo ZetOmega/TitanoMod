@@ -2,6 +2,6 @@
   "_comment": "In dieser Datei wird dem Block seine Textur zugewiesen",
   "parent": "block/cube_all",
   "textures": {
-    "all": "facharbeit:block/titanium_ore"
+    "all": "facharbeit:block/end_titanium_ore"
   }
 }

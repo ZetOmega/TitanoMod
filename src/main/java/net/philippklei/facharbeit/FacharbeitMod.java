@@ -13,7 +13,7 @@ public class FacharbeitMod implements ModInitializer {
     // Hier in der Hauptklasse der Mod werden die wichtigsten funktion aufgerufen um alles zu laden.
     @Override
     public void onInitialize() {
-        // Hier werden alle Items und Blöcke registriert damit sie im Spiel erscheinen koennen.
+        // Hier werden alle Items und Bloecke registriert damit sie im Spiel erscheinen koennen.
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
     }

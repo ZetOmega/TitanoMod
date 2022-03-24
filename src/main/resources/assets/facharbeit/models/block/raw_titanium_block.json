@@ -1,0 +1,7 @@
+{
+  "_comment": "In dieser Datei wird dem Block seine Textur zugewiesen",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "facharbeit:block/raw_titanium_block"
+  }
+}

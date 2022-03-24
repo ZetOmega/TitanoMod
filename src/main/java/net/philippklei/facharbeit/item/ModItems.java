@@ -10,13 +10,17 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier MISC).
+    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Item TITANUM_INGOT = registerItem("titanium_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroups.FACHARBEIT)));
 
-    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier MISC).
+    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Item TITANUM_NUGGET = registerItem("titanium_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroups.FACHARBEIT)));
+
+    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
+    public static final Item RAW_TITANIUM = registerItem("raw_titanium",
+            new Item(new FabricItemSettings().group(ModItemGroups.FACHARBEIT)));
 
     // Jedes Item erbt von der Standardklasse ITEM von Minecraft.
     private static Item registerItem(String name, Item item){

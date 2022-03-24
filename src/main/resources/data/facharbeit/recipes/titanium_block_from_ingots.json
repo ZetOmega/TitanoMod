@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "facharbeit:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "facharbeit:titanium_block"
+  }
+}

@@ -2,6 +2,11 @@
   "_comment": "Hier kann man die Mod übersetzten, der Einfachheit halber erstmal nur in Englisch",
   "item.facharbeit.titanium_ingot": "Titanium Ingot",
   "item.facharbeit.titanium_nugget": "Titanium Nugget",
+  "item.facharbeit.raw_titanium": "Raw Titanium",
+
   "block.facharbeit.titanium_block": "Titanium Block",
-  "block.facharbeit.titanium_ore": "Titanium Ore"
+  "block.facharbeit.end_titanium_ore": "End Titanium Ore",
+  "block.facharbeit.raw_titanium_block": "Raw Titanium Block",
+
+  "itemGroup.facharbeit.facharbeit": "Facharbeit"
 }
