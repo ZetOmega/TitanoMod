@@ -8,5 +8,8 @@
   "block.facharbeit.end_titanium_ore": "End Titanium Ore",
   "block.facharbeit.raw_titanium_block": "Raw Titanium Block",
 
-  "itemGroup.facharbeit.facharbeit": "Facharbeit"
+  "itemGroup.facharbeit.facharbeit": "Facharbeit",
+
+  "item.facharbeit.titanium_finder": "Titanium Finder",
+  "item.facharbeit.titanium_finder.no_titanium": "Kein Titanium wurde gefunden"
 }

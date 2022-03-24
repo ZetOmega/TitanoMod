@@ -1,11 +1,11 @@
 package net.philippklei.facharbeit.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.ItemGroup;
 import net.philippklei.facharbeit.FacharbeitMod;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.philippklei.facharbeit.item.custom.TitaniumFinderItem;
 
 
 public class ModItems {
@@ -21,6 +21,10 @@ public class ModItems {
     // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
     public static final Item RAW_TITANIUM = registerItem("raw_titanium",
             new Item(new FabricItemSettings().group(ModItemGroups.FACHARBEIT)));
+
+    // Hier wird das Item erstellt und es bekommt einen Namen sowie eine Itemklasse im Spiel (hier die eigens erstelle Klasse FACHARBEIT).
+    public static final Item TITANIUM_FINDER= registerItem("titanium_finder",
+            new TitaniumFinderItem(new FabricItemSettings().group(ModItemGroups.FACHARBEIT).maxDamage(69)));
 
     // Jedes Item erbt von der Standardklasse ITEM von Minecraft.
     private static Item registerItem(String name, Item item){
