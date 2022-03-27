@@ -10,5 +10,5 @@ public class ModItemGroups {
 
     //Hier wird eine eigene ItemGruppe erstellt welche den neuen Items zugewiesen werden kann.
     public static final ItemGroup FACHARBEIT = FabricItemGroupBuilder.build(new Identifier(FacharbeitMod.MOD_ID, "facharbeit"),
-            () -> new ItemStack(ModItems.TITANUM_INGOT));
+            () -> new ItemStack(ModItems.TITANIUM_INGOT));
 }

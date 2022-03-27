@@ -27,7 +27,6 @@ public class ModBlocks {
     public static final Block RAW_TITANIUM_BLOCK = registerBlock("raw_titanium_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(28.0f).requiresTool()), ModItemGroups.FACHARBEIT);
 
-
     // Jeder Block erbt von der Standardklasse BLOCK von Minecraft.
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
@@ -45,4 +44,3 @@ public class ModBlocks {
         System.out.println("Registriere Mod-Bloecke fuer " + FacharbeitMod.MOD_ID);
     }
 }
-
