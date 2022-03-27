@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "facharbeit:titanium_block",
-    "facharbeit:raw_titanium_block",
-    "facharbeit:end_titanium_ore"
+    "titano:titanium_block",
+    "titano:raw_titanium_block",
+    "titano:end_titanium_ore"
   ]
 }

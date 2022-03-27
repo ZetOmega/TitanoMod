@@ -1,0 +1,7 @@
+{
+  "_comment": "In dieser Datei wird dem Item seine Textur zugewiesen",
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "titano:item/titanium_nugget"
+  }
+}

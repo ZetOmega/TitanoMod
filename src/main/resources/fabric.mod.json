@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "facharbeitmod",
+  "id": "titano",
   "version": "${version}",
 
-  "name": "Facharbeits Mod",
+  "name": "Titano Mod",
   "description": "This is an amazing description!",
   "authors":[
     "Code: Philipp Klei",
@@ -20,11 +20,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.philippklei.facharbeit.FacharbeitMod"
+      "net.philippklei.titano.TitanoMod"
     ]
   },
   "mixins": [
-    "facharbeit.mixins.json"
+    "titano.mixins.json"
   ],
 
   "depends": {
