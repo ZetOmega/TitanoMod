@@ -9,11 +9,9 @@ import org.slf4j.LoggerFactory;
 public class TitanoMod implements ModInitializer {
     public static final String MOD_ID = "titano";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
-    // Hier in der Hauptklasse der Mod werden die wichtigsten funktion aufgerufen um alles zu laden.
     @Override
+    // Hier werden alle Items und Bloecke registriert damit sie im Spiel erscheinen koennen.
     public void onInitialize() {
-        // Hier werden alle Items und Bloecke registriert damit sie im Spiel erscheinen koennen.
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
     }

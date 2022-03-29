@@ -19,7 +19,7 @@ public class TitaniumFinderItem extends Item {
     public ActionResult useOnBlock(ItemUsageContext context) {
         if(context.getWorld().isClient()) {
             BlockPos positionUsed = context.getBlockPos();
-            getRadius(context, context.getPlayer(), positionUsed);
+            getChecks(context, context.getPlayer(), positionUsed);
         }
         // Hier wird das das Item nach seiner Nutzung beschaedigt.
         context.getStack().damage(1, context.getPlayer(),
@@ -28,8 +28,8 @@ public class TitaniumFinderItem extends Item {
         return super.useOnBlock(context);
     }
 
-    // Diese Methode untersucht in einem Radius um den Spieler herum ob ein Titanium Erz zwischen Hoehe 0 und 256 liegt
-    private void getRadius(ItemUsageContext context, PlayerEntity player, BlockPos positionUsed){
+    // Diese Methode untersucht um den Spieler herum, ob ein Titanium Erz zwischen Hoehe 0 und 256 liegt
+    private void getChecks(ItemUsageContext context, PlayerEntity player, BlockPos positionUsed){
         for(int i = 0; i <= 256; i++) {
             /*
             Diese If Abfrage fragt die 9 verschiedenen Blöcke um den Spieler ab. Wenn kein Erz gefunden wird, wird auf einer anderen Hoehe weitergesucht.
@@ -74,7 +74,6 @@ public class TitaniumFinderItem extends Item {
 
         }
     }
-
 
     private void outputCoordinates(BlockPos blockPos, PlayerEntity player) {
         player.sendMessage(new LiteralText("Titanium Erz bei " +
