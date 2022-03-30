@@ -1,4 +1,5 @@
 {
+  "comment": "Hier werden Craftingrezepte festgelegt. Es gibt verschiedene Typen (shapeless, shaped, smelting, smithing und mehr)",
   "type": "minecraft:smelting",
   "ingredient": {
     "item": "titano:raw_titanium"

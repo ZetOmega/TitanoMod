@@ -1,1 +1,0 @@
-in diesem Ordner werden alle tags festgelegt. Ein Block kann zum Beispiel nur von bestimmten Werkzeugen abgebaut werden. Zum Beispiel setzt er auch Diamant Werkzeuge vorraus.

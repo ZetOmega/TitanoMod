@@ -1,1 +1,0 @@
-in diesem Ordner werden alle sogenannten "Loot-Tables" festgelegt. Es gibt pools, wenn es mehrere gibt, wird beim abbauen eines Blocks zufällig einer dieser pools ausgewählt und die festgelegten Items erscheinen. Man kann außerdem festlegen welche Werkzeuge zum abbauen nötig sind oder welche Verzauberungen eines Werkzeuges Vorteile erbringen.

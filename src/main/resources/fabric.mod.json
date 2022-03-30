@@ -1,4 +1,6 @@
 {
+  "comment": "Hier werden einige Einstellungen der Mod festgelegt",
+
   "schemaVersion": 1,
   "id": "titano",
   "version": "${version}",

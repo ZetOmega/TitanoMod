@@ -1,1 +1,0 @@
-in diesem Ordner werden alle Rezepte festgelegt. Sie haben verschiedene Typen (shapeless, shaped, smelting), und so verschiedene Layouts. Beim schmelzen kann man die dauer und die generierten XP-Level einstellen, beim Shapeless-Crafting die Zutaten zum Ergebnis und beim Shaped-Crafting, das Layout der benötigten Items zum herstellen des Ergebnisses

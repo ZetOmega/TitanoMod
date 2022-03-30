@@ -1,4 +1,5 @@
 {
+  "_comment": "In dieser Datei wird dem Item seine Textur als Item zugewiesen",
   "parent": "item/handheld",
   "textures": {
     "layer0": "titano:item/titanium_masher"

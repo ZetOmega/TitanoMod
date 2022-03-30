@@ -75,12 +75,13 @@ public class TitaniumFinderItem extends Item {
         }
     }
 
+    // Diese Methode gibt die Koordiantes des uebergebenen Blockes im Chat als Nachricht aus
     private void outputCoordinates(BlockPos blockPos, PlayerEntity player) {
         player.sendMessage(new LiteralText("Titanium Erz bei " +
                 "(" + blockPos.getX() + ", " + blockPos.getZ() + ")" + " gefunden"), false);
     }
 
-    // hier wird untersucht ob der mitgegebene Block ein Titanium Erz ist
+    // Hier wird untersucht ob der mitgegebene Block ein Titanium Erz ist
     private boolean isTitaniumOre(Block block) {
         return block == ModBlocks.END_TITANIUM_ORE;
     }
