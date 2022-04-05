@@ -1,6 +1,4 @@
 {
-  "_comment": "Hier kann man die Mod übersetzten, der Einfachheit halber erstmal nur in Englisch",
-
   "item.titano.titanium_ingot": "Titanium Barren",
   "item.titano.titanium_nugget": "Titanium Klumpen",
   "item.titano.raw_titanium": "Rohes Titanium",
@@ -12,7 +10,5 @@
   "block.titano.end_titanium_ore": "End Titanium Erz",
   "block.titano.raw_titanium_block": "Raw Titanium Block",
 
-  "itemGroup.titano.titano": "Titano",
-
-  "item.titano.titanium_finder.no_titanium": "Es wurde kein Titanium gefunden"
+  "itemGroup.titano.titano": "Titano"
 }

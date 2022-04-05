@@ -1,5 +1,4 @@
 {
-  "_comment": "Hier wird festgelegt, dass die Blöcke nur von Spitzhacken abgebaut werden können",
   "replace": false,
   "values": [
     "titano:titanium_block",

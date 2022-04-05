@@ -1,5 +1,4 @@
 {
-  "comment": "Hier wird festgelegt was passiert wenn ein Block abgebaut wird. Er kann durch besondere Verzauberungen beeinflusst werden",
   "type": "minecraft:block",
   "pools": [
     {

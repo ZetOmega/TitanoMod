@@ -1,6 +1,4 @@
 {
-  "_comment": "Hier kann man die Mod übersetzten, der Einfachheit halber erstmal nur in Englisch",
-
   "item.titano.titanium_ingot": "一錠鈦",
   "item.titano.titanium_nugget": "一塊鈦",
   "item.titano.raw_titanium": "生鈦",
@@ -12,7 +10,5 @@
   "block.titano.end_titanium_ore": "端鈦礦石",
   "block.titano.raw_titanium_block": "生鈦墩",
 
-  "itemGroup.titano.titano": "Titano",
-
-  "item.titano.titanium_finder.no_titanium": "没有发现钛的存在"
+  "itemGroup.titano.titano": "Titano"
 }

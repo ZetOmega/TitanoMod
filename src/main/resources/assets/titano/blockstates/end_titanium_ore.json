@@ -1,5 +1,4 @@
 {
-  "_comment": "Hier wird angegeben welches model der Block für welchen Zustand annimmt",
   "variants": {
     "": {"model":  "titano:block/end_titanium_ore"}
   }

@@ -7,12 +7,10 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-// Hier wird das Enum ModToolMaterial mit ToolMaterial erstellt. Außerdem werden einige Eigenschaften festgelegt.
 public enum ModToolMaterial implements ToolMaterial {
     TITANIUM(MiningLevels.DIAMOND, 5000, 40F, 3.5F, 25, () ->
             Ingredient.ofItems(ModItems.TITANIUM_INGOT));
 
-    // Hier werden Variablen für die Eigenschaften erstellt.
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;
@@ -20,7 +18,6 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
 
-    // Hier werden dden Eigenschaftsvariablen Werte uebergeben.
     ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage,
                             int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
@@ -31,7 +28,6 @@ public enum ModToolMaterial implements ToolMaterial {
         this.repairIngredient = new Lazy(repairIngredient);
     }
 
-    // Hier fangen die Getter an.
     public int getDurability() {
         return this.itemDurability;
     }

@@ -1,4 +1,3 @@
 {
-  "_comment": "In dieser Datei wird dem Block seine Textur als Item zugewiesen",
   "parent": "titano:block/titanium_block"
 }

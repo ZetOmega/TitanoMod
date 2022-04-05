@@ -10,7 +10,6 @@ public class TitanoMod implements ModInitializer {
     public static final String MOD_ID = "titano";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
-    // Hier werden alle Items und Bloecke registriert damit sie im Spiel erscheinen koennen.
     public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
