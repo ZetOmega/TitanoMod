@@ -4,12 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen;
+import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
-import net.minecraft.text.LiteralText;
-import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
@@ -75,11 +75,13 @@ public class TitaniumFinderItem extends Item {
     }
 
     private void outputCoordinates(BlockPos blockPos, PlayerEntity player) {
-        String message = "Found at: {" +
+        String message = ": {" +
                 blockPos.getX() + ", " +
                 blockPos.getY() + ", " +
                 blockPos.getZ() + "}";
-        PlayerUtils.sendMessage(player, message);
+        TranslatableText titaniumFoundText = new TranslatableText("item.titano.titanium_finder.found");
+        titaniumFoundText.append(message);
+        PlayerUtils.sendMessage(player, titaniumFoundText);
     }
 
     @Override
