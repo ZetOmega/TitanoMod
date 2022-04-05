@@ -10,5 +10,7 @@
   "block.titano.end_titanium_ore": "End Titanium Ore",
   "block.titano.raw_titanium_block": "Raw Titanium Block",
 
-  "itemGroup.titano.titano": "Titano"
+  "itemGroup.titano.titano": "Titano",
+
+  "item.titano.titanium_finder.found": "Titanium found"
 }

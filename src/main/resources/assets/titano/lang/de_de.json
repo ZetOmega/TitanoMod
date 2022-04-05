@@ -8,7 +8,9 @@
 
   "block.titano.titanium_block": "Titanium Block",
   "block.titano.end_titanium_ore": "End Titanium Erz",
-  "block.titano.raw_titanium_block": "Raw Titanium Block",
+  "block.titano.raw_titanium_block": "Roher Titanium Block",
 
-  "itemGroup.titano.titano": "Titano"
+  "itemGroup.titano.titano": "Titano",
+
+  "item.titano.titanium_finder.found": "Titanium gefunden"
 }
