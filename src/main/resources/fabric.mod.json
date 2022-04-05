@@ -6,8 +6,9 @@
   "name": "Titano Mod",
   "description": "This is an amazing description!",
   "authors":[
-    "Code: Philipp Klei",
-    "Textures: Arne Lohmann"
+    "Code: Philipp Klei and Fynn Schilke",
+    "Textures: Arne Lohmann",
+    "Translation: Felix Schramm"
   ],
   "contact": {
     "homepage": "https:/philippklei.de",
