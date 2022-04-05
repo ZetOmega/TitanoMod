@@ -12,7 +12,7 @@
 
   "itemGroup.titano.titano": "Titano",
   
-  "item.titano.titanium_finder.found": "Titanium gefunden"
-  "item.titano.titanium_finder.tooltip.shift": "Drücke Rechtsklick um Titanium zu suchen",
-  "item.titano.titanium_finder.tooltip": "Drücke §eSHIFT§r für mehr Informationen"
+  "item.titano.titanium_finder.found": "Titanium gefunden",
+  "item.titano.titanium_finder.tooltip.shift": "§7Drücke Rechtsklick um Titanium zu suchen§r",
+  "item.titano.titanium_finder.tooltip": "§7Drücke§r §eSHIFT§r §7für mehr Informationen§r"
 }
