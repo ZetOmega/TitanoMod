@@ -1,15 +1,25 @@
 package net.philippklei.titano.item.custom;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.philippklei.titano.block.ModBlocks;
 import net.philippklei.titano.utils.BlockUtils;
 import net.philippklei.titano.utils.PlayerUtils;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class TitaniumFinderItem extends Item {
     public TitaniumFinderItem(Settings settings) {
@@ -70,5 +80,15 @@ public class TitaniumFinderItem extends Item {
                 blockPos.getY() + ", " +
                 blockPos.getZ() + "}";
         PlayerUtils.sendMessage(player, message);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        if(Screen.hasShiftDown()){
+            tooltip.add(new TranslatableText("item.titano.titanium_finder.tooltip.shift"));
+        } else {
+            tooltip.add(new TranslatableText("item.titano.titanium_finder.tooltip"));
+        }
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }
