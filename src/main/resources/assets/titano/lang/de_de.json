@@ -11,6 +11,8 @@
   "block.titano.raw_titanium_block": "Roher Titanium Block",
 
   "itemGroup.titano.titano": "Titano",
-
+  
   "item.titano.titanium_finder.found": "Titanium gefunden"
+  "item.titano.titanium_finder.tooltip.shift": "Drücke Rechtsklick um Titanium zu suchen",
+  "item.titano.titanium_finder.tooltip": "Drücke §eSHIFT§r für mehr Informationen"
 }

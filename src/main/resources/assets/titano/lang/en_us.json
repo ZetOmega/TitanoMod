@@ -13,4 +13,6 @@
   "itemGroup.titano.titano": "Titano",
 
   "item.titano.titanium_finder.found": "Titanium found"
+  "item.titano.titanium_finder.tooltip.shift": "Right Click to find Titanium",
+  "item.titano.titanium_finder.tooltip": "Press §eSHIFT§r for for Information"
 }
